@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="9"
+    android:orientation="vertical"
+    tools:context=".AdminUpdateGroceryScreen">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:textSize="35sp"
+        android:text="Update Grocery" />
+
+    <Spinner
+        android:id="@+id/updateSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/etAdminUpdateGroceryName"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etAdminUpdateGroceryPrice"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:inputType="textPersonName"
+        android:hint="Price" />
+
+    <EditText
+        android:id="@+id/etAdminUpdateGroceryStock"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:inputType="textPersonName"
+        android:hint="Stock" />
+
+    <EditText
+        android:id="@+id/etAdminUpdateGroceryMeasure"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:layout_marginTop="15sp"
+        android:inputType="textPersonName"
+        android:hint="Measure" />
+
+    <Button
+        android:id="@+id/btnAdminUpdateGroceryImage"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="80sp"
+        android:layout_marginTop="35sp"
+        android:text="Update Image" />
+
+    <Button
+        android:id="@+id/btnAdminUpdateGroceryGrocery"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="80sp"
+        android:layout_marginTop="15sp"
+        android:text="Update Grocery" />
+
+</LinearLayout>

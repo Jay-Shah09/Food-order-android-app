@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385065318199",
+    "project_id": "groceryshopjayshah",
+    "storage_bucket": "groceryshopjayshah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385065318199:android:7040f81923b541b812ccb2",
+        "android_client_info": {
+          "package_name": "com.example.groceryshopjayshah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385065318199-li02ttcng9u320l42vn9mi46q6qnmhak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRB4jeav63FTP2wVqLA3D86gxtv-IIlvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385065318199-li02ttcng9u320l42vn9mi46q6qnmhak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

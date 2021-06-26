@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    android:orientation="vertical"
+    tools:context=".AdminScreen">
+
+    <TextView
+        android:id="@+id/tvAdminScreenTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:text="WEL-COME" />
+
+    <Button
+        android:id="@+id/btnAdScrShow"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"
+        android:text="Show User" />
+
+    <Button
+        android:id="@+id/btnAdScrAdd"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"
+        android:text="Add Grocery" />
+
+    <Button
+        android:id="@+id/btnAdScrDelete"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"
+        android:text="Delete Grocery" />
+
+    <Button
+        android:id="@+id/btnAdScrUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"
+        android:text="Update Grocery" />
+
+
+</LinearLayout>
